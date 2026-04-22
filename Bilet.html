@@ -1,33 +1,52 @@
 <html>
 <head>
     <title>Bilet Concert Imagine Dragons</title>
+    <style>
+        /* Acest mic stil face ca biletul să stea pe mijloc și să fie lizibil */
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            border: 5px solid black;
+            max-width: 600px; /* Limitează lățimea pe desktop ca să nu se întindă prea tare */
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body background="Background.jpg">
 
-    <center>
-        <h1 style="color: white; background-color: black;">BILET DE CONCERT</h1>
+    <div class="container">
+        <h1 style="background-color: black; color: white; padding: 10px;">BILET DE CONCERT</h1>
         
-        <img src="ImagineDragons.jpeg" width="400" height="350" border="15" alt="Imagine Dragons Band" align="middle">
+        <img src="ImagineDragons.jpeg" width="80%" height="auto" border="5" alt="Imagine Dragons" style="margin-bottom: 20px;">
+
+        <h2>Trupa: Imagine Dragons</h2>
         
-        <div style="background-color: rgba(211, 211, 211, 0.8); width: 500px; padding: 20px; border-radius: 10px;">
-            <h2>Trupa: Imagine Dragons</h2>
-            <p><b>Data:</b> 15 Iulie 2026</p>
-            <p><b>Locația:</b> Arena Națională, București</p>
-            <p><b>Ora:</b> 20:00</p>
-            <p><b>Preț bilet:</b> 350 RON</p>
-            
-            <hr>
-            
-            <p><b>În deschidere:</b> Cargo & Subcarpați</p>
-            
-            <p>Vizitează: <a href="https://www.imaginedragonsmusic.com">Site Oficial Imagine Dragons</a></p>
-            
-            <h3>Sponsori:</h3>
-            <img src="Coca-cola.jpeg" width="80" height="50" hspace="10" align="middle">
-            <img src="Pearl.png" width="80" height="50" hspace="10" align="middle">
-        </div>
-    </center>
+        <p><b>Data:</b> 15 Iulie 2026</p>
+        <p><b>Locatia:</b> Arena Nationala, Bucuresti</p>
+        <p><b>Ora:</b> 20:00</p>
+        <p><b>Pret bilet:</b> 350 RON</p>
+        
+        <hr width="50%">
+        
+        <p><b>In deschidere:</b> Cargo & Subcarpati</p>
+        
+        <p>Viziteaza: <a href="https://www.imaginedragonsmusic.com" target="_blank">Site Oficial Imagine Dragons</a></p>
+        
+        <h3>Sponsori:</h3>
+        <img src="Coca-cola.jpeg" width="100" height="auto" align="middle" hspace="10">
+        <img src="Pearl.png" width="100" height="auto" align="middle" hspace="10">
+    </div>
 
 </body>
 </html>
